@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url('../vendor/fonts/Quicksand-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Quicksand-Medium';
+    src: url('../vendor/fonts/Quicksand-Medium.ttf') format('truetype');
+}
+body .back-container {
+    max-width: 600px;
+    margin: 16px auto;
+}
+body .back-container a {
+    color: #000000;
+}
+.back {
+    max-width: 8px;
+}
+body {
+    background-color: #FBFBFD;
+    font-family: 'Quicksand-Medium', sans-serif;
+}
+body .main-container {
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+.newsletter-bg, .newsletter-bg > .container {
+    position: relative;
+}
+.newsletter-bg > .container {
+    z-index: 9999;
+}
+
+header img.img-fluid {
+    max-width: 90px;
+}
+header .padding-left-0 {
+    padding-left: 0;
+    display: flex;
+    align-items: flex-end;
+}
+header span, header p {
+    color: #FBFBFD;
+    text-align: right;
+    font-family: 'Quicksand-Medium', sans-serif;
+    line-height: 8px;
+    font-size: 10px;
+    margin: 0;
+}
+header p {
+    line-height: 10px;
+}
+header span {
+    margin-top: 4px;
+}
+header .info {
+    text-align: right;
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.heading {
+    color: #FBFBFD;
+    text-align: center;
+    font-family: 'Quicksand-Bold', sans-serif;
+    font-size: 40px;
+    margin-top: 24px;
+    margin-bottom: 0;
+    line-height: 39px;
+}
+.heading span {
+    font-size: 32px;
+}
+.small {
+    color: #FBFBFD;
+    font-family: 'Quicksand-Medium', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    text-align: right;
+}
+.intro {
+    color: #FBFBFD;
+    margin-top: 24px;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 1);
+}
+footer {
+    min-height: 32px;
+}
+.section {
+    padding-top: 40px;
+    padding-bottom: 12px;
+    position: relative;
+}
+.section img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+.section:not(:last-of-type) {
+    border-bottom: 1px solid #d0d0d0;
+}
+.course-heading {
+    font-family: 'Quicksand-Bold', sans-serif;
+    text-align: center;
+    background: #5659a3;
+    color: #FBFBFD;
+}
+.course-description {
+    margin-top: 1rem;
+}
+@media only screen and (max-width: 420px) {
+    body .newsletter-bg {
+        background-position: bottom;
+    }
+}
