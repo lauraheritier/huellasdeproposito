@@ -16,6 +16,12 @@ body .back-container a {
 .back {
     max-width: 8px;
 }
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
 body {
     background-color: #FBFBFD;
     font-family: 'Quicksand-Medium', sans-serif;
@@ -30,7 +36,7 @@ body .main-container {
 }
 .newsletter-bg {
     padding-bottom: 24px;
-    background-image: url("./img/header.jpeg");
+    background-image: url("./img/header.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
