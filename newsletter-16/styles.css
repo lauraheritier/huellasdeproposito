@@ -39,7 +39,7 @@ body .main-container {
     background-image: url("./img/header.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;
 }
 .newsletter-bg, .newsletter-bg > .container {
     position: relative;
